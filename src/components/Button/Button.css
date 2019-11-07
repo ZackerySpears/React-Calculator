@@ -1,0 +1,38 @@
+.Button {
+    background-color: blueviolet;
+    color: white;
+    width: 25%;
+    height: 100%;
+    font-size: 23pt;
+    outline: none;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all .5s;
+}
+
+.Button:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.Button:active {
+    transform: scale(.80);
+}
+
+.Button-primary {
+    color: black !important;
+}
+
+.Button-operator {
+    background-color: black;
+}
+
+.Button-Num{
+    background-color: rgb(211, 43, 211);
+}
+
+.Button-large {
+    width: 50%;
+    background-color: blue;
+}
