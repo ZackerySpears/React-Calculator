@@ -1,0 +1,12 @@
+.Screen {
+    height: 25vh;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url('../IMG/screen-back.jpg');
+    border-bottom:4px rgb(211, 43, 211) solid ;
+    overflow: hidden;
+    padding: 0px 10px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
