@@ -12,10 +12,10 @@ class Calculator extends Component {
         super(props);
 
         this.state = {
-            equation: '2+2',
-            result: 'Fish'
+            equation: '',
+            result: 0
         }
-    }
+    } 
     
     /* Function that is called when any of the keypad buttons are pressed */
     onButtonPress = (event) => {
