@@ -5,11 +5,11 @@ import ComputationScreen from '../ComputationScreen/ComputationScreen';
 
 /* Component that hilds the results screen and calculation screen */
 class Screen extends Component {
-    render() {
+    render(){
         return (
             <div className='Screen'>
-                <ResultsScreen>0</ResultsScreen>
-                <ComputationScreen>2+2=fish</ComputationScreen>
+                <ResultsScreen>{this.props.result}</ResultsScreen>
+                <ComputationScreen>{this.props.equation}</ComputationScreen>
             </div>
         );
     }

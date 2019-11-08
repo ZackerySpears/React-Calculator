@@ -31,8 +31,13 @@
 .Button-Num{
     background-color: rgb(211, 43, 211);
 }
+.Button-Num2 {
+    background-color: rgb(211, 43, 211);
+    border-bottom-left-radius: 10px;
+}
 
 .Button-large {
     width: 50%;
     background-color: blue;
+    border-bottom-right-radius: 10px;
 }
